@@ -1,8 +1,11 @@
-Давыденко Данута
-Gmail: FenrirSayrons@gmail.com
-Моя цель - научиться владеть разными языками программирования для создания сайтов и работы в данной сфере. Мои сильные стороны это стремление узнавать новое и усидчивость. К сожалению, опыта работы пока особо нет, если, конечно, не считать маленькие пробные проекты для университета во время учебы.
-Из навыков на данный момент есть основы С++, HTML и CSS.
-Примеры кода
+# **Danuta Davydenko**
+*Gmail: FenrirSayrons@gmail.com*
+*Pobediteley street, 42, Belarus*
+
+My goal is to learn to speak different programming languages for creating websites and working in this area. My strengths are the desire to learn new things and perseverance. Unfortunately, there is not much work experience yet, unless, of course, you count small pilot projects for the university during your studies.\
+
+The skills at the moment have the basics С++, HTML и CSS.\
+-
 -
 -
 A2
