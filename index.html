@@ -5,8 +5,159 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    //
+<body class="cv">
+    <div>
+        <div class="blue">
+            <div class="block1">
+                <ul class="white-text nav">
+                    <li><span class="bold-text white-text name-dan">DAVYDENKO <br>DANUTA</span></li>
+                    <li >
+                       <a href="#Education"> Education</a>
+                    </li>
+                    <li>
+                        <a href="#Skills">Skills</a>
+                    </li>
+                    <li>
+                       <a href="#Code"> Code</a>
+                    </li>
+                    <li>
+                        <a href="#Projects"> Progects</a>
+                    </li>
+                    <li>
+                        <a href="#English"> English</a>
+                    </li>
+                    <li>
+                        <a href="#Contacts">  Contacts</a>
+                    </li>
+                </ul>
+
+                <div class="container-fluid">
+                     <img class="logo-image" src="img/photo.jpg" alt="Photo">
+
+                     <p class="white-text firsttext">
+                        My goal is to learn to speak different programming languages for creating websites and working in this area. My strengths are the desire to learn new things and perseverance. Unfortunately, there is not much work experience yet, unless, of course, you count small projects for the university during your studies.
+                      </p>
+
+                      
+                 </div>
+             </div>
+        </div>
+    </div>
+
+
+    <div class="block1">
+        <h2 id="Education">Education</h2>
+
+        <ol class="exp">
+            <li class="bold-text">
+                <b>BSU student majoring in web programming </b>
+            </li>
+        </ol>
+    </div>
+    <hr>
+    <div class="block1 block2" id="Skills">
+        <h2> Skills</h2>
+        <ul class="achievemnts">
+            <li><span class="bold-text">
+                Work with database</span>
+            </li>
+            <li><span class="bold-text">
+                Version control</span>
+            </li>
+            <li><span class="bold-text">
+                Web-dewelopment</span>
+            </li>
+        </ul>
+    </div>
+ 
+    <div class="blue">
+        <div class="block1">
+           <h2 class="white-text" id="Code">Code</h2>
+             <div class="code-text">
+                <p class="white-text">  public static void finding(int[] massive){</p>
+                <p class="white-text"> int size = massive.length;</p>
+                <p class="white-text"> System.out.println("Числа, делящиеся на 5 и на 7: ");</p>
+                <p class="white-text"> int counter = 0;</p>
+                <p class="white-text"> int k = (size-1);</p>
+                <p class="white-text">do{</p>
+                <p class="white-text">    if(massive[k] % 35 ==0){</p>
+                <p class="white-text">  System.out.print(massive[k] + " ");</p>
+                <p class="white-text">counter++;</p>
+                <p class="white-text">}</p>  
+                <p class="white-text"> k--;</p>
+                <p class="white-text">}</p>
+                <p class="white-text">while (k >= 0);</p>
+                <p class="white-text">if(counter == 0){</p>
+                <p class="white-text">  System.out.print("Такие числа отсутствуют");</p>
+                <p class="white-text">}</p>
+            </div>
+         </div>
+    </div>  
+   
+
+    <div class="hand-bg">
+        <div class="block1" id="Projects">
+            <h2>
+                Projects
+            </h2>
+            </div>
+        </div>
+        <div class="textcols">
+            <div class="textcols-item">
+                <ul class="achievemnts">
+                    <li><span class="bold-text">
+                        Art-gallery</span>
+                    </li>
+                    <li><span class="bold-text">
+                        Resume</span>
+                    </li>
+                    <li><span class="bold-text">
+                        Map with links</span>
+                    </li>
+                    </ul>
+            </div>
+            <div class="textcols-item">
+                <ul class="achievemnts">
+                    <li><span class="bold-text">
+                        Business card</span>
+                    </li>
+                    <li><span class="bold-text">
+                        Moon website</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+<hr>
+
+
+    <div class="block1 ">
+        <h2 class="bold-text" id="English">English</h2>
+            <p class="paragraph">
+               <b>A2+</b> 
+            </p>
+     </div>
+
+     <hr>
+
+     <div>
+        <footer id="Contacts">
+             <div>
+              <p> <strong>Gmail:</strong> FenrirSayrons@gmail.com</p>
+              <p> <strong>Github:</strong>FenrirSay</p>
+              <p>©2022</p>
+             </div>
+             <div class="footericon">
+             
+                   
+                    <a href="https://rs.school/js-stage0/"> <img class="footer-image" src="img/RS.png" alt="GitHub"></a>
+                  
+                
+             </div>
+        </footer>
+    </div>
+
+
 </body>
 </html>
